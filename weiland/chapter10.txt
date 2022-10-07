@@ -1,0 +1,38 @@
+1.	Define all of the terms
+	a.	Shell- the UNIX command processor
+b.	Option – It is code typed after a command to make the command more specific. 
+	c.	Standard output- a file where the program sends output
+	d.	Pipe- Connect the output from one utility to the input of another 
+	e.	Metacharacter- a character in Unix that describes a purpose in UNIX 
+	f.	Background process- It gives the ability to work independently from the shell. For example, leaving the terminal to go into another tab. 
+	g.	PID- It is a process identification number, and every shell is assigned to one.  
+	h.	Program- set of coded instructions contained in a file. 
+	i.	Argument- anything that follows the command line. 
+	j.	Grave accent- it is a character in UNIX that, when you put in between a special word, will produce an output. 
+	k.	Tee- saves the output from a command in a file and pipes the output to another command. 
+	l.	Wildcard- characters that can stand for other characters. 
+	m.	Foreground process- It is the command that occupies your shell. 
+	n.	Job number- every shell gets assigned a job number; it is the number in brackets. 
+	o.	Process- what you get, however, the computer runs a program 
+	p.	Standard input- the file where the program normally looks for input. 
+	q.	Redirection- when you can move a file from one directory to another
+	r.	Filter- takes a stream of data from its standard input, transforms the data in some way, and sends the results to the standard output. 
+	s.	Quote- it protects the characters in the quotation marks 
+	t.	Process id number- Same as PID, it is a number that every Unix shell will give you. 
+	u.	Job control- allows you to stop the process temporarily, move foreground processes to the background and back again, and kill processes. 
+2.	What does each of the following commands do 
+	a.	Echo *  - list everything in the current directory 
+	b.	Echo /* - displays all the / commands 
+	c.	Echo \* - displays * 
+	d.	Echo “*” – displays *
+	e.	Echo – blank line 
+	f.	Echo */* - displays */*
+3.	How would you use cat to show the contents of the files ending in ing? 
+	a.	The way you use cat is you have to type cat then all the following files that end in ing. Then you must use the character > to put it in a new file and then display that file. 
+4.	How would you list any files containing x or X? 
+	a.	You would do this by using ls *[xX]* 
+5.	How would you show the context of files with names containing?
+	a.	You do this by typing in cat *o*
+6.	How would you show the contents of the file backgammon, backpacking, and blackjack using just one command. 
+	a.	You would do this by using cat b*ack*
+
