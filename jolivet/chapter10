@@ -1,0 +1,37 @@
+1.shell : Unix command processor
+option : modify what the command does
+standrad output : stdout is the file where the program sends output
+pipe : connects the output from one utility to the input of another
+metacharacter : characters that can stand for other characters
+background process : keep runnig while you work on another task in the foreground
+PID : process identification number
+program : set of coded instructions contained in a file
+argument :filename, string, number or object
+grave accent : quote
+tee : allows you to do two things at once
+wildcard : *, ? and []
+foreground process : the process you are running
+job number : PID
+process : what you get whenever the computer runs a program
+standard input : stdin is the file where the program normally looks for input
+redirection : the output goes into an ordinary file instead
+filter : takes a streamof data and transforms it in some way
+quote : string
+process id number : PID
+job control : background (kill, send to background ...)
+
+2. echo * : print everything
+echo /* : everything that start with / where you are
+echo \* : print *
+echo "*" : print *
+echo : print blanck
+echo */* : everything on your comuter that start with /
+rm * : remove everything
+
+3. cat *ing
+
+4. ls *[Xx]*
+
+5. cat *o*
+
+6. cat b*ack*

@@ -1,0 +1,41 @@
+Clo Salvador
+
+question 1: 
+Shell = Unix command processor
+Program = set of coded instructions contained in a file
+Process = what you get whenever the computer runs a program
+Option = argument of a command, modifies what the command does
+Argument = anything that follows the command name
+Standard input = file where the program normally looks for input
+Standard output = file where the program normally sends output
+Grave accent = backquotes used to enclose commands that you want the shell to run
+Redirection = the fact to redirect the standard output so that the output goes into an ordinary file instead.
+Pipe = connects the output from one utility to the input of another, avoid creating a new file.
+Tee = allows you to save the output from a command in a file and pipe the output to another command
+Filter = takes a stream of a data from its standard input, tranforms the data in some way and sends the results to the standard output
+Metacharacter = character that has a special meaning in unix
+Wildcard = characters that can stand for other characters
+Quote = what you do when you want shell to treat a special character as its original meaning and not as a code for something else in shell
+Background process = process that continue running even though you’re working on another task
+Foreground process = the task you’re currently working on
+Process id number = number assigned to every background process, used to shut a process down
+PID = process id number
+Job number = allows you to be informed when the shell is ready to process another command line
+Job control = allows you to run several processes in the background and eliminate them
+
+question 2:
+Would write everything contained on the current file (all the names of the files)
+Would write all the file names starting with /
+Would write *
+Would write *
+Would write nothing (a blank)
+Would write all the file names containing a /
+Would remove all the files
+
+question 3: cat *ing
+
+question 4: ls *[xX]*
+
+question 5: cat *o*
+
+question 6: cat b*ack*

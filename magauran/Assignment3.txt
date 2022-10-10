@@ -1,0 +1,52 @@
+Patrick Magauran
+09/25/2022
+CS:255U Unix Programming
+
+2. /home/magauran
+
+3. [centos@ip-172-26-6-252 ~]$ cd magauran/
+[centos@ip-172-26-6-252 magauran]$ ls
+fun
+[centos@ip-172-26-6-252 magauran]$ mkdir misc
+[centos@ip-172-26-6-252 magauran]$ mv fun ./misc/
+[centos@ip-172-26-6-252 magauran]$ ls misc/
+fun
+[centos@ip-172-26-6-252 magauran]$ ls
+misc
+
+4. 
+[centos@ip-172-26-6-252 magauran]$ mkdir Cal
+[centos@ip-172-26-6-252 magauran]$ mkdir Cal/Vacations
+[centos@ip-172-26-6-252 magauran]$ touch summer.2007
+[centos@ip-172-26-6-252 magauran]$ mv summer.2007 Cal/Vacations/
+[centos@ip-172-26-6-252 magauran]$ ls -lr
+total 0
+drwxrwxr-x. 2 centos centos 17 Sep 25 20:31 misc
+drwxrwxr-x. 3 centos centos 23 Sep 25 20:32 Cal
+[centos@ip-172-26-6-252 magauran]$ ls -lR
+.:
+total 0
+drwxrwxr-x. 3 centos centos 23 Sep 25 20:32 Cal
+drwxrwxr-x. 2 centos centos 17 Sep 25 20:31 misc
+
+./Cal:
+total 0
+drwxrwxr-x. 2 centos centos 25 Sep 25 20:32 Vacations
+
+./Cal/Vacations:
+total 0
+-rw-rw-r--. 1 centos centos 0 Sep 25 20:32 summer.2007
+
+./misc:
+total 4
+-rw-rw-r--. 1 centos centos 159 Sep 11 21:44 fun
+
+5.
+
+                    /home/magauran
+					      |
+				Cal                 Misc
+				 |                    |
+			 Vacations				 fun
+			     |
+			 summer.2007
