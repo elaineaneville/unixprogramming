@@ -1,0 +1,49 @@
+Assignment 5
+Patrick magauran
+
+Question 1:
+
+Shell - The command processor on a unix system
+Option - An argument provided to a command to alter its run
+Standard output - the normal output displayed by a command
+pipe - put the output of one command into another
+metacharacter - Another name for a wildcard character
+background process - a process that runs in the background of the system, rather than in front of the user
+PID - the process ID
+program - computer code that executes to do something
+Argument - Something provided to a program to alter how it runs
+grave accent - runs any commands within the accents
+tee - a command to both write to a file and pipe to another command
+wildcard - a character that represents any character
+foreground process - a process that runs in front of the user, taking up the shell
+job number - a number given to the jobs running in the background for user reference
+process - a running program on the unix system
+standard input - the input to a program
+redirection - changing where the standard input/ouput/error go
+filter - a program that filters the standard io
+quote - a character that indicates the characters should be interpreted as a single string
+process id number - A PID
+job control - a set of commands to easily manage background and foreground commands
+
+Question 2:
+
+echo * - outputs the name of each file/dir in the current dir
+echo /* - outputs the names of each file/dir in the root
+echo \* - outputs the character *
+echo "*" - outputs the character *
+echo - outputs nothing
+echo */* - ouptut everything in the sub directories
+rm * - removes all files in the current directory
+
+Question 3:
+
+cat *ing
+
+Question 4:
+ls *[Xx]*
+
+Question 5:
+cat *o*
+
+Quesiton 6:
+cat b?ack*
