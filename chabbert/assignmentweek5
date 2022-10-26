@@ -1,0 +1,99 @@
+hap 10 Exercise :
+
+NAME and EXPLANATION
+Shell
+ command-line interpreter or shell that provides a command line user interface for Unix-like operating systems 
+
+Option
+special kind of argument that modifies the effects of a command 
+
+Standard output
+default file descriptor where a process can write output 
+
+pipe
+mechanism for inter-process communication using message passing 
+
+metacharacter
+ a character that has a special meaning during pattern processing 
+
+Background process
+ executes independently of the shell, leaving the terminal free for other work 
+
+PID
+number used by most operating system kernels to uniquely identify an active process. 
+
+program
+The code the user write
+
+argument
+
+Parameters for command
+
+Grave accent
+will start another shell prompt 
+
+tee
+reads standard input, then writes the output of a program to standard output and simultaneously copies it into the specified file or files 
+
+wildcard
+symbols or special characters that represent other characters 
+
+Foreground process
+processing that supports interaction between interactive and batch operations 
+
+Job number
+background processes that are currently running under your shell 
+
+process
+process is started when a program is initiated 
+
+Standard input
+an input stream where data is sent to and read by a program 
+
+redirection
+a form of interprocess communication 
+
+filter
+programs that take plain text as standard input, transforms it into a meaningful format, and then returns it as standard output 
+
+quote
+used to remove the special meaning of certain characters or words to the shell 
+
+Process id number
+ Same as PID
+
+Job control
+ ability to selectively stop (suspend) the execution of processes and continue (resume) their execution at a later point 
+
+2) 
+Echo *
+It is going to display all the text files in the repository
+
+Echo /*
+display all the pathes in a directory (/media /mnt /opt /root /run etc...)
+
+Echo \*
+Just return * 
+
+Echo « * »
+Return * 
+
+Echo
+displaying lines of text or string which are passed as arguments on the command line 
+
+Echo */*
+Display all the repositories and their path (Alex/Wrap anaelle/747art.txt anaelle/art/txt etc...)
+
+Rm *
+Remove all the files
+
+
+3) cat *ing
+
+4) ls*[Xx]*
+
+
+5) cat *o*
+
+6) cat *back* 
+

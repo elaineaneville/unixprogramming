@@ -1,0 +1,47 @@
+Number 1: shell- The UNIX command processor. It interprets commands and takes appropriate action.
+option: A letter or word that modifies the behavior of a command.
+standard output: The file where the program sends output.
+pipe: This connects the output from one utility to the input of another.
+metacharacter: Another name for wildcards. Characters that stand for other characters.
+background process: A process started from the shell and runs independently in the background.
+PID: A number assigned to every process running in the background.
+program: A set of coded instructions contained in a file.
+argument: Anything that follows the command name including options and file names.
+grave accent: Backquote that is used to enclose commands that you want the shell to run.
+tee: Allows you to do two things at once: save the output from a command in a file,
+and pipe the output to another command.
+wildcard: Characters that can stand for other characters.
+foreground process: A process that occupies the shell, no new commands can take place until it is finished.
+job number: The number of a process in brackets, not the PID number.
+process: What you get whenever the computer runs a program.
+standard input: The file where the program normally looks for input.
+redirection: Allows you to send the output to an ordinary file instead of the standard output.
+filter: Take a stream of data from its standard input, transforms the data in some way,
+and sends the results to the standard output.
+quote: Removes the special meaning of characters or words to the shell.
+process id number: A unique number to identify active processes.
+job control: Makes it easier to manage background processes. You can stop processes temporarily,
+move foreground processes to the background and back again, and kill processes. 
+
+
+Number 2:
+echo *: Prints the list of files and folders in the current working directory.
+echo /*: Displays all / commands.
+echo \*: Cancels out the special meaning of *, just prints *.
+echo "*": Cancels out the special meaning of *, just prints *.
+echo: Displays a line of text passed as arguments. Alone just prints blank line.
+echo */*: Displays */*
+rm *: Erases all files in the current directory.
+
+
+Number 3: 
+You would use the cat *ing command.
+
+Number 4:
+You would use the ls *[Xx]* command.
+
+Number 5:
+You would use the cat *o* command.
+
+Number 6:
+You would use the cat b*ack* command.

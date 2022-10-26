@@ -1,0 +1,45 @@
+Mansi Chandra
+
+Q1.shell - The shell is the UNIX command processor.
+   program - A set of coded instructions contained in a file.
+   process - A process is what you get whenever the computer runs a program.
+   option - modifies what the command does
+   argument - Anything that follows the command name - including the options and file names.
+   standard input - It is the file where the program normally looks for input
+   standard output - It is the file where the program send output 
+   grave accent - Backquotes also known as grave accent marks are used to enclose commands taht we want the shell to run 
+   redirection - Allows you to redirect the standard output from the terminal 
+screen into an ordinary file instead
+   pipe - Connects theoutput from one utility to the input of another.
+   tee - A tee allows you to save the output from a command in a file and pipe 
+the output to another command.
+   filter - Takes a stream of data from its standard input, transforms the data in some way and sends the results to the standard output 
+   metacharacter - These are the special characters that are first interpreted by the shell before passing the same to the command.
+   wildcard - characters taht can stand for other characters
+   quote - If we want the shell to treat each character as themselves and not as some special character, we quote them
+   background process - Processes that can run unattended and are often put in the background
+   foreground process - Process that you work on
+   process id number - Whichever shell you are using, it assigns a process identification number
+   PID - PID (process identification number) 
+   job number - Bash also assigns a jpob number which is the number in brackets 
+   job control - Allows you to stop processes temporarily, move foreground processes to the background and back again an dkill processes.
+
+
+Q2. 
+(a) No match
+(b) display all files filetypes in particular directory
+(c) echo *
+(d) echo
+(e) It displays lines of text or string which are passed as arguments on the command line.
+(f) No match
+ 
+   
+Q3. cat *ing
+
+Q4. ls *[Xx]*
+
+Q5. cat *o*
+
+Q6. cat b*ack*
+
+

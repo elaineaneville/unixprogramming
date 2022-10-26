@@ -1,0 +1,47 @@
+Name: Anezka Strnadova
+Date: October 9, 2022
+Course: CS225U
+
+1.
+shell = the UNIX command processor
+option = specification of a command
+standard output = the file where the program sends output, usually the terminal screen (stdout)
+pipe = connects the output from one utility to the input of another:
+metacharacter = characters that can stand for other characters: *, ?, [, ]
+background process = the command continues running while we work on another task in the foreground
+PID = process identification number
+program = a set of coded inctructions contained in a file
+argument = anything that follows the command name
+grave accent = backward single quotation
+tee = allows us to save the output from a command in a file and pipe the output to another command at once
+wildcard = characters that can stand for other characters: *, ?, [, ]
+foreground process = processes that require a user to interact with them
+job number = number in brackets
+process = what we get whenever the computer runs a program
+standard input = the file where the program normally looks for input, usually keyboard (stdin) 
+redirection = <, > or >>
+filter = takes a stream of data from its standard input, transforms the data and sends the results to the standard output
+quote = ' or "
+process id number = the shell assigns PID to every process running in the background 
+job control = job control commands allow us to stop processes temporarily, move foreground processes to the background and back again, and kill processes
+
+2.
+echo * would show everything in the directory
+echo /* would show every file that starts with /
+echo \* would show a star
+echo "*" would show a star
+echo would show an empty line
+echo */* would show every file that has / in its name
+rm * would delete all files
+
+3.
+cat *ing
+
+4.
+ls *[Xx]*
+
+5.
+cat *o*
+
+6.
+cat b*ack*
