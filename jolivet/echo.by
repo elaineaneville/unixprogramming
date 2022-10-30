@@ -1,0 +1,8 @@
+#!/bin/sh
+# Print message x times
+count = $1
+while test $count -gt 0
+do
+	echo $*
+	count=`expr $ count -1`
+done

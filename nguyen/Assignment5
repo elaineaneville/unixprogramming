@@ -1,0 +1,41 @@
+Quynh Nguyen
+
+1. 
+shell: UNIX command processor
+option: an UNIX command can take one or more options which modify what the command does. For example the ls command has quite a few options such as -a (list all files including hidden files), -l(print long list of files except hidden files), or -s (list by size)
+standard output: stdout is the file where the program sends output. It can be the terminal screen.
+pipe: | connects the output from one utility to the input of another. 
+metacharacter: special characters such as & * \ | [], which have special meanings to the shell. These can cause problems if they are not quoted. 
+background process: processes running at the same time. We can start a command and put it in the "background" to continue running while you work on another task in the foreground. 
+PID: a process identification number is assigned to every process running in the background. 
+program: a set of coded instructions contained in a file.
+argument: anything that follows the command name - including the options and file names - is generally refererred to as an argument.
+grave accent: encloses commands that you want the shell to run
+tee: allows you to do two things at once - save the output from a command in a file and pipe the output to the command
+wildcards: characters that can stand for other characters. Can be *, ? or [] 
+foreground process: the task you are working on 
+job number: Bash assigns this number in brackets, next to the PID.
+process: what you get whenever a program is run
+standard input: the file where the program looks for input. Can be keyboard forUNIX
+redirection: the shell allow this to redirect the input and output to another command or file 
+filter: a filter takes a stream of data from its standard input, transforms the data in some way and sends the results to the standard output. 
+quote: \ to cancel the meaning of next character, 'string ' to cancel the meaning of all characters in a string, "string" to cancel the meaning of any character except $, `` and \, `string` to run any commands in the string and output replaces `string`
+process id number: PID, used to uniquely identify an active process. 
+job control: commands allow you to top processes temporarily, move foreground processes to the background and back again, and kill processes.
+
+2. What would each of the commands do?
+echo *     display all files in the directory
+echo /*	   display all directories
+echo \*	   print out *
+echo "*"   print out *
+echo       display an empty line
+echo */*   display all files that has / in their names
+rm *       remove all files in the directory
+
+3. cat *ing
+
+4. ls *[Xx]*
+
+5. cat *o*
+
+6. cat b*ack*
