@@ -1,0 +1,34 @@
+Assignment 5: Unix Shells
+Isabel Dinan
+1.	Shell: the UNIX command processor that interprets a command and takes the appropriate action
+	Program: a set of coded instructions contained in a file
+	Process: what you get when the computer runs a program
+	Option: modifies what a command does
+	Argument: anything that follows the command name
+	Standard input: the file where the program normally looks for input
+	Standard output: the file where the program sends output
+	Grave accent: backquotes, used to enclose commands you want the shell to run
+	Redirection: puts the standard output into a file
+	Pipe: connects the output from one utility to the input of another
+	Tee: allows you to save the output from a command in a file and pipe the output to another command at the same time
+	Filter: takes a stream of data from its standard input, transforms the data, and sends the results to the standard input
+	Metacharacter: another name for wildcards
+	Wildcard: a character that can stand for other characters
+	Quote: used to make the shell treat special characters as normal characters with backslashes or quotation marks
+	Background process: a process that can run at the same time as a foreground process that is disconnected from the terminal
+	Foreground process: a process connected to the terminal
+	Process id number: identifies every process running in the background
+	PID: short for process id number
+	Job number: number in brackets that some shells assign each process
+	Job control: commands that allow you to stop processes temporarily, move foreground processes to the background, and kill processes
+2.	echo * lists files in current directory
+	echo /* lists files starting with /
+	echo \* prints *
+	echo "*" prints *
+	echo prints nothing
+	echo */* lists all file names ending in *
+	rm * removes all files
+3. cat *ing
+4. ls *[Xx]*
+5. cat *o*
+6. cat b?ack*

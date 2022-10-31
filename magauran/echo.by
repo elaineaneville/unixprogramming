@@ -1,0 +1,8 @@
+#!/bin/bash
+cnt = 0
+end = $1
+while test $cnt -le $end
+do
+	echo $*
+	cnt = `expr $count + 1`
+done

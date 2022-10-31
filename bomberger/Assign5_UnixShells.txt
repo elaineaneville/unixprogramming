@@ -1,0 +1,41 @@
+Micah Bomberger
+
+1.
+shell - an interactive display that processes commands
+program - a set of coded instructions contained in a file
+process - a set of coded instructions running on the computer
+option - an argument consisting of a dash and character which modifies what the command does
+argument - anything that follows a command
+standard input - the file where a program normally looks for input
+standard output - the file where a program normally sends output
+grave accent - also called backquotes, enclose commands that the shell should run
+redirection - changing the standard input or output for a program or process
+pipe - the vertical bar "|" character, connects the output from one program to the input of another
+tee - allows a process output to be piped into a file "tee filename" and another program
+filter - takes an input, transforms the data, and sends the results to the output
+metacharacter - a character that functions as a command
+wildcard - characters that can stand for other characters
+quote - used to contain strings
+background process - a process running while the user works on something else
+foreground process - the process the user is interacting with
+process id number - the number assigned to a running process
+PID - (Process Identification) the number assigned to a running process
+job number - another number assigned to a running process, used in C, TC, Korn, and Bash shells
+job control - the ability to run processes in the background or kill them
+
+2.
+echo * - returns all files in the current directory 
+echo /* - returns all directories and files in the root directory
+echo \* - prints an asterisk
+echo "*" - prints an asterisk
+echo - prints a newline
+echo */* - returns all directories in current directory that contain files
+rm * - removes all files in the current directory
+
+3. > cat *ing
+
+4. > ls *[Xx]*
+
+5. > cat *o*
+
+6. > cat b*ack*

@@ -1,0 +1,39 @@
+Question #5 cat private
+#!/bin/bash
+chmod 700 $1
+echo $1 rights have been changed to private
+ls -l $1
+
+Question #6 cat public
+#!/bin/bash
+chmod 777 $1
+echo $1 rights have been changed to public
+ls -l $1
+
+Question #7 cat del
+#!/bin/bash
+if test ! -d $1
+        then
+                rmdir /$1
+                echo directory removed
+        else
+                echo no directory
+fi
+
+if test ! -d $1
+then
+        echo directory not removed
+else
+        echo well removed
+fi
+
+
+Question #10 cat echo.by
+#!/bin/bash
+nb = `$1`
+count = `0`
+while $count < $1
+do
+        echo $*
+        $count = `$count + 1`
+done
