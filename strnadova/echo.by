@@ -1,0 +1,8 @@
+#!/bin/sh
+
+count="$1"
+while test $count -gt 0
+do
+    echo "${@:2}"
+    count=`expr $count - 1`
+done
