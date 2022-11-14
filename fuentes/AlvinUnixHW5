@@ -1,0 +1,88 @@
+1.
+Shell: The shell is the Unix comman processor which interprets commands and 
+takes the appropriate actions.
+
+Option: Is a special argument that Modifies the effects of a command.
+
+Standard Output: The standard output (stdout) is the file where the program
+sends output. 
+
+Pipe: Combines two or more commands in which the output of one command acts as
+the input of another command, and this command's output may act as input to
+the next command and so on. 
+
+Metacharacter: These are the special characters that are first interpreted by
+the shell before passing the same to the command. 
+
+Background Process: Is a process that executs independently of the shell, leavi
+ng the terminal free for other work. 
+
+PID: This is the process identification number.
+
+Program: Is a command interpreter that provides you with an interface to the
+operating system. 
+
+Argument: Input given to a command line to process that input with help of give
+n command. 
+
+Grave Accent: Command that will stary another shell prompt(B). The ouput of any
+command entered in B is a command for A. 
+
+Tee: A tee allows you to do two things at once: (1) save the output from a command in a file, and (2) pipe the output to another command. 
+
+Wild Card: Are characters that can stand for other characters in order to abb
+reviate them. 
+
+Foreground Process: Is one that occupites your shell(terminal window), meaning
+that any new commands that are typed have no effect until the previous command
+is finished.
+
+Job Number: Refers to background processes that are currently running under you
+r shell. 
+
+Process: Is an instance of a prgram running in a computer.
+
+Standard Input: The Standard Input(stdin) is the file where the program normall
+y looks for input. 
+
+redirection: Allows commands' file handles to be duplicated, opened, closed, 
+made to refer to different files, and can change the files the command reads
+from and writes to. Redirection can also be used to modify file handles in the
+current shell execution environment. 
+
+Filter: Are the set of of commands that take input from standard input stream
+i.e. stdin, perform some operations and write output to standard output stream
+i.e. stdout. 
+
+Quote: is used to remove the special meaning of certain characters or words to 
+the shell. 
+
+Process ID Number: is a number used in unix to uniquely identify an active pro
+cess. 
+
+Job Control: Makes it easeir to manage background processes. Job Control comman
+ds allow you to stop processes temporarily, move foreground processes to the
+background and back again, and kill processes.
+
+2. 
+
+echo *:It will return everything from that area onto the screen. 
+
+echo /*: It wil only print out a directory. 
+
+echo\*: Takes you up one level and prints out everything in that level. 
+
+echo "*": Prints out the star. 
+
+echo: Prints out nothing.
+
+echo: */*: will print out */*
+
+rm*: removes everything. 
+
+3.
+ Cat ing would preview everything ending in ing.
+4. ls *[Xx]*
+5. Cat *o*
+6. Cat b*ack*
+  
