@@ -1,0 +1,35 @@
+1.
+Job control- Makes it easier to manage background proccesses
+Background processing- putting a command in the background(&) to multitask
+wildcard- used to abbreviate filenames
+tee- Allows us to save a command's output to a file, while simultaneously piping the output to another command
+filter- Takes a stream of data from its input, transforms it, and sends the result to the output
+pipe- Allows you to run several commands simultaneously in the same command line
+process- A sequence of instructions
+standard input- the file where the program looks for input
+redirection- sends the standard output to a file
+quote- used to specify characters
+process id number- number automatically assigned to each processargument- values or parameters supplied to run commands
+grave accent- used to define constants
+foreground process- a process that occupies the shell
+job number- id number assigned to each job
+shell- command proccessor that interprets the caommand and takes action
+standart output- the file where the program sends the output
+metacharacter- search criteria for REGEX
+PID- %n
+
+2.
+(echo *)- shows files in directory
+(echo /*)- Shows paths
+(echo \*)- displays text after the *
+(echo "*")- displays text inside of parenthasees
+(echo)- repeats text in output
+rm- removes files/directories
+
+3.cat *ing
+
+4.ls *Xx*
+
+5.cat *o*
+
+6.cat b*ac*
