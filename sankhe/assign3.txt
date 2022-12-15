@@ -1,0 +1,13 @@
+2. sejalsankhe
+3. mkdir Misc
+Mv fun Misc
+4.
+
+5.                                           Sejal Sankhe
+                                            /              \
+                                   Misc                Cal
+                                     /                        \
+                                Fun                      Vacations
+                                                                  \
+                                                                Summer.2007
+ 
