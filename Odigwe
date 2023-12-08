@@ -1,0 +1,10 @@
+/Users/gilbertodigwe
+gilbertodigwe@Gilberts-MacBook-Air ~ % mkdir Misc
+mv fun Misc/
+
+mv: rename fun to Misc/fun: No such file or directory
+gilbertodigwe@Gilberts-MacBook-Air ~ % mkdir -p Cal/Vacations
+mv summer.2007 Cal/Vacations/
+
+mv: rename summer.2007 to Cal/Vacations/summer.2007: No such file or directory
+gilbertodigwe@Gilberts-MacBook-Air ~ % /home/username
